@@ -1,3 +1,7 @@
-p {
+.red {
   color:red;
+}
+.bluev p {
+  color:blue;
+  font-family: verdana;
 }
