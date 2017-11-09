@@ -7,16 +7,17 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <a href="https://liacociorva.github.io/">My Home Page</a>
     
-  <h1>HTML Reference Page</h1>
+  <h1 ID="title">HTML Reference Page</h1>
   <style>
     table, th, td {
    
 }
 </style>
-
-<table style="width:100%">
-  <tr>
+<!--Table-->
+<table class="tableclass">
+  <tr class="trclass">
     <th>Name</th>
     <th>Start tag</th> 
     <th>End tag</th>
@@ -24,8 +25,9 @@
   </tr>
   <tr>
     <td><p><a href="#html">HTML</a></p></td>
-    
-    <td>50</td>
+    <td><p>&lt;html&gt;</p></td>
+    <td><p>&lt;/html&gt;</p></td>
+    <td><p>NA</p></td>
   </tr>
   <tr>
     <td><p><a href="#header">Header</a></p></td>
@@ -49,7 +51,7 @@
     <td><p><a href="#heading">Heading</a></p></td>
     <td>&lt;h2&gt;</td>
     <td>&lt;/h2&gt;</td>
-    <td><h2>Heading</h2></td>
+    <td><p><font size="5">Heading</font></p></td>
   </tr>
   <tr>
     <td><p><a href="#paragraph">Paragraph</a></p></td>
@@ -116,136 +118,147 @@
     
     
     
-    
+    <!--HTML-->
     <h2 id="html">HTML Element</h2>
     <h3>Description</h3>
     <p>The HTML and DOCTYPE tags define the laguage of the document. These are placed at the beginning of the document, and the &lt;/html&gt; tag is placed at the very end. The slash sign is used in a pair of tags to indicate the start and end of the tag. </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;html&gt;, End tag:&lt;/html&gt; Document tag: &lt;!DOCTYPE html&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;html&gt;, End tag:&lt;/html&gt; Document tag: &lt;!DOCTYPE html&gt;</p>
     <h3>Example</h3>
-    <code>&lt;html&gt;<br>&lt;/html&gt;</code><br>
+    <code class="examplestyle">&lt;html&gt;&lt;/html&gt;</code><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_html.asp">w3schools</a>
     <hr>
     
+    <!--Head-->
     <h2 id="header">Head Element</h2>
     <h3>Description</h3>
     <p>The head tag is used to define information about the document that will not be displayed on the actual page. This can inlude titles, styles, and more. It is placed at the top of the page so that it is what the computer reads over first. <br>  </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;head&gt;, end tag:&lt;/head&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;head&gt;, end tag:&lt;/head&gt;</p>
     <h3>Example</h3>
-    <code>&lt;head&gt;This is the header.&lt;/head&gt;</code><br>
+    <code class="examplestyle">&lt;head&gt;This is the header.&lt;/head&gt;</code><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_head.asp">w3schools</a>
     <hr>
     
+    <!--Title-->
     <h2 id="title">Title Element</h2>
     <h3>Description</h3>
     <p>The title attribute is used to title the document and it is what appears in the title of a tab when you open it. This is placed in the header. </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;title&gt;, end tag:&lt;/title&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;title&gt;, end tag:&lt;/title&gt;</p>
     <h3>Example</h3>
-    <code>&lt;title&gt;This is a title.&lt;/title&gt;</code><br>
+    <code class="examplestyle">&lt;title&gt;This is a title.&lt;/title&gt;</code><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_title.asp">w3schools</a>
     <hr>
     
+    <!--Body-->
     <h2 id="body">Body Element</h2>
     <h3>Description</h3>
     <p>The body attriute is what HTML uses to know where the content of the site is actually going to be displayed. This is where content like text, images, and more are placed to appear on the page. It is usually placed somehwere in the middle of the document, but can go anywhere between the &lt;html&gt;/&lt;/html&gt; tags. </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;body&gt;, end tag:&lt;body&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;body&gt;, end tag:&lt;body&gt;</p>
     <h3>Example</h3>
-    <code>&lt;body&gt;&lt;h1&gt;This is a heading.&lt;/h1&gt;&lt;/body&gt;</code><br>
+    <code class="examplestyle">&lt;body&gt;&lt;h1&gt;This is a heading.&lt;/h1&gt;&lt;/body&gt;</code><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_body.asp">w3schools</a>
     <hr>
     
+    <!--Heading-->
     <h2 id="heading">Heading Element</h2>
     <h3>Description</h3>
     <p>Headings are form of text that can be organized by number and size. For example, Heading 1 is the largest, Heading 2 is the second largest, so on and so forth. These can go anywhere in the body. </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;h1&gt;, end tag:&lt;/h1&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;h1&gt;, end tag:&lt;/h1&gt;</p>
     <h3>Example</h3>
-    <code>&lt;h1&gt;This is a heading.&lt;/h1&gt;</code>
+    <code class="examplestyle">&lt;h1&gt;This is a heading.&lt;/h1&gt;</code>
     <h3>Display</h3>
-    <h1>This is a heading</h1><br>
+    <p><font size="5">This is a heading</font></p><br><br>
     <a href="https://www.w3schools.com/tags/tag_header.asp">w3schools</a>
     <hr>
     
+    <!--Paragraph-->
     <h2 id="paragraph">Paragraph Element</h2>
     <h3>Description</h3>
     <p>Paragraphs are the basic text size, usually used for writing the main content of a page (like this). These can also go anywhere in the body. </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;p&gt;, end tag:&lt;/p&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;p&gt;, end tag:&lt;/p&gt;</p>
     <h3>Example</h3>
-    <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+    <code class="examplestyle">&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
     <h3>Display</h3>
-    <p>This is a paragprah</p><br>
+    <p>This is a paragprah</p><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_p.asp">w3schools</a>
     <hr>
     
+    <!--Break-->
     <h2 id="break">Break Element</h2>
     <h3>Description</h3>
     <p>Breaks are used when you want to seperate text into lines. This helps create new paragraphs in your text. </p>
     <h3>Syntax</h3>
-    <p>&lt;br&gt;</p>
+    <p class="syntaxstyle">&lt;br&gt;</p>
     <h3>Example</h3>
-    <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;&lt;br&gt;&lt;p&gt;This is another paragraph.&lt;/p&gt;</code>
+    <code class="examplestyle">&lt;p&gt;This is a paragraph.&lt;/p&gt;&lt;br&gt;&lt;p&gt;This is another paragraph.&lt;/p&gt;</code>
     <h3>Display</h3>
-    <p>This is a paragraph</p><br><p>This is another paragraph</p><br>
+    <p>This is a paragraph</p><br><p>This is another paragraph</p><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_br.asp">w3schools</a>
     <hr>
     
+    <!--Line-->
      <h2 id="line">Line Element</h2>
     <h3>Description</h3>
     <p>Lines, or horizontal rules, is used to separate content in a web page with a physical line drawn across the page. </p>
     <h3>Syntax</h3>
-    <p>&lt;hr&gt;</p>
+    <p class="syntaxstyle">&lt;hr&gt;</p>
     <h3>Example</h3>
-    <code>&lt;hr&gt;</code>
-    <h3>Display</h3><br>
+    <code class="examplestyle">&lt;hr&gt;</code>
+    <h3>Display</h3>
+    <hr>
     <a href="https://www.w3schools.com/tags/tag_hr.asp">w3schools</a>
     <hr>
     
-    
+    <!--Comment-->
    <h2 id="comment">Comment Element</h2>
     <h3>Description</h3>
     <p>Comments are used to help the programmer or people reading code, as it is not seen on the page or anywhere else but on the screen of the programmer. It can help organize code or help direct readers. They can be placed anywhere in the page.  </p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;!--, End tag: --&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;!--, End tag: --&gt;</p>
     <h3>Example</h3>
-    <code>&lt;!--This is a comment--&gt;</code><br>
+    <code class="examplestyle">&lt;!--This is a comment--&gt;</code><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_comment.asp">w3schools</a>
     <hr>
     
+    <!--Link-->
     <h2 id="link">Link Element</h2>
     <h3>Description</h3>
     <p>Links  are useful and versatile ways to direct users to another web page or another part of your website. These can go anywhere in the body.</p>
     <h3>Syntax</h3>
-    <p>&lt;a&gt;</p>
+    <p class="syntaxstyle">&lt;a&gt;</p>
     <h3>Example</h3>
-    <code>&lt;a href="url"&gt;This is my link&lt;/a&gt;</code>
+    <code class="examplestyle">&lt;a href="url"&gt;This is my link&lt;/a&gt;</code>
     <h3>Display</h3>
-    <a href="https://www.google.com/">This is a link to Google.</a><br>
+    <a href="https://www.google.com/">This is a link to Google.</a><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_a.asp">w3schools</a>
     <hr>
     
+    <!--Images-->
     <h2 id="image">Images Element</h2>
     <h3>Description</h3>
     <p>Images (&lt;img&gt;) are used in many diferent ways. They can provide information in a website, or they can simply help decorate and assist with the style of the page. These can also go anywhere in the body. </p>
     <h3>Syntax</h3>
-    <p>&lt;img&gt;</p>
+    <p class="syntaxstyle">&lt;img&gt;</p>
     <h3>Example</h3>
-    <code>&lt;img src="image name"&gt;</code>
+    <code class="examplestyle">&lt;img src="image name"&gt;</code>
     <h3>Display</h3>
-    <img src="smiley.gif"><br>
+    <img src="smiley.gif"><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_img.asp">w3schools</a>
     <hr>
     
+    <!--List-->
     <h2 id="list">List Element</h2>
     <h3>Description</h3>
     <p>Lists are used to organize information or text in the form of bullets, stars, cirles, squares, dashes, and more. These can also go anywhere in the body. </p>
     <h3>Syntax</h3>
-    <p>&lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;</p>
+    <p class="syntaxstyle">&lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;</p>
     <h3>Example</h3>
-    <code>&lt;ul style="style name"&gt;<br>
+    <code class="examplestyle">&lt;ul style="style name"&gt;<br>
     &lt;li&gt;list item &lt;/li&gt;<br>
      &lt;/ul&gt;</code>
     <h3>Display</h3>
@@ -257,11 +270,12 @@
 <a href="https://www.w3schools.com/tags/tag_li.asp">w3schools</a>
     <hr>
     
+    <!--Table-->
     <h2 id="table">Table Element</h2>
     <h3>Description</h3>
     <p>Tables are another way to organize information. Tables are usually used as a way to separate numbers and data in a way that is easily understandable and readable. These can, again, go anywhere in the body. </p>
     <h3>Syntax</h3>
-    <p>&lt;table&gt;,&lt;tr&gt;,&lt;th&gt;,&lt;td&gt;</p>
+    <p class="syntaxstyle">&lt;table&gt;,&lt;tr&gt;,&lt;th&gt;,&lt;td&gt;</p>
     <h3>Example</h3>
     <code> &lt;table style="width:100%"><br>
   &lt;tr><br>
@@ -308,22 +322,22 @@
     <td>Content</td>
     <td>Content</td>
   </tr>
-</table><br>
+</table><br><br><br>
 <a href="https://www.w3schools.com/tags/tag_table.asp">w3schools</a>
     <hr>
     
+    <!--Block-->
     <h2 id="block">Block Element</h2>
     <h3>Description</h3>
-    <p>Blocks (&lt;div&gt;) are, again, a way to oranize content. They are often used to seperate information, either to target a certain block of code for style, or for many other purposes. 
-</p>
+    <p>Blocks (&lt;div&gt;) are, again, a way to oranize content. They are often used to seperate information, either to target a certain block of code for style, or for many other purposes.</p>
     <h3>Syntax</h3>
-    <p>Start tag:&lt;div&gt;, end tag:&lt;/div&gt;</p>
+    <p class="syntaxstyle">Start tag:&lt;div&gt;, end tag:&lt;/div&gt;</p>
     <h3>Example</h3>
-    <code>&lt;div&gt;Words&lt;/div&gt;<br>
+    <code class="examplestyle">&lt;div&gt;Words&lt;/div&gt;<br>
     &lt;div&gt;More words&lt;/div&gt;</code>
     <h3>Display</h3>
     <div>Words</div>
-    <div>More words</div><br>
+    <div>More words</div><br><br><br>
     <a href="https://www.w3schools.com/tags/tag_div.asp">w3schools</a>
     <hr>
   </body>
