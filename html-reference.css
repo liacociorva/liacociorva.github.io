@@ -1,1 +1,40 @@
+body {
+   font-family: "Roboto", serif;
+  background-color:whitesmoke;
+}
+
+#title {
+  text-align: center;
+}
+.syntaxstyle {
+  font-style: italic;
+}
+.examplestyle {
+  font-size: 130%;
+  border-left: 6px dimgrey solid;
+  background-color: lavender;
+  padding: 5px;
+}
+.trclass {
+  background-color: darkseagreen;
+}
+h2 {
+  color:white;
+  border: 2px;
+  background-color:darkseagreen;
+}
+.tableclass {
+  width:100%;
+  background-color:lavender;
+}
+.tableclass,th,td{
+  border:solid 2px;
+  border-collapse:collapse;
+}
+a:link {
+    color: darkseagreen;
+}
+a:visited {
+    color: lightseagreen;
+}
 
