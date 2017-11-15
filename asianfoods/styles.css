@@ -1,1 +1,29 @@
 
+body {
+  font-family:"Ariel", sans-serif;
+}
+.page1color {
+  background-color:#ccffcc;
+}
+.page2color {
+  background-color:#c5db8a;
+}
+.page3color {
+  background-color:#e8abda;
+}
+.page4color {
+  background-color:#e8abab;
+}
+.page5color {
+  background-color:#abace8;
+}
+.homecolor {
+  background-color:#f7ffaa;
+}
+
+
+
+
+img {
+  width:100%;
+}
